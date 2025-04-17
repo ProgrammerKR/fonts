@@ -1,74 +1,72 @@
 [![CI Status](https://github.com/google/fonts/workflows/Continuous%20Test/badge.svg?branch=main)](https://github.com/google/fonts/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)
 
-# Google Fonts Files
+# ProXFont Files
 
-This project mainly contains the binary font files served by Google Fonts ([fonts.google.com](https://fonts.google.com))
+This repository contains the binary font files for **ProXFont**, which are served through the ProXFont platform ([proxfont.com](https://proxfont.com)).
 
-The top-level directories indicate the license of all files found within them.
-Subdirectories are named according to the family name of the fonts within.
+The top-level directories represent the license of all files within them. Subdirectories are named after the font family they contain.
 
-Each family subdirectory contains the `.ttf` font files served by Google Fonts, plus a `METADATA.pb` file with metadata for the family (such as information on the project designer(s), genre category, and license - [learn more](https://github.com/googlefonts/gf-docs/tree/master/METADATA)) and a `DESCRIPTION.en_us.html` with a description of the family in US English.
+Each family subdirectory contains:
+- `.ttf` font files served by ProXFont.
+- A `METADATA.pb` file with family information (designer(s), genre category, license, etc. - [learn more](https://github.com/ProgrammerKR/proxfonts/gf-docs/tree/master/METADATA)).
+- A `DESCRIPTION.en_us.html` file with a description of the font family in US English.
 
-The `/catalog` subdirectory contains additional metadata, such as profile texts and portrait/avatar images of font designers, and this is open for contributions and corrections from anyone via GitHub.
+The `/catalog` subdirectory contains additional metadata such as profile texts and images of font designers. This is open for contributions and corrections from anyone via GitHub.
 
-The `/axisregistry` subtree contains metadata for the GF Axis Registry, containing information on variable font axes that can be found in the collection, including experimental axes.
-As a subtree, no changes should be made directly to this repo, instead please use the upstream, [github.com/googlefonts/axisregistry](http://github.com/googlefonts/axisregistry)
+The `/axisregistry` subtree contains metadata for the ProXFont Axis Registry, which includes information about variable font axes in the collection, including experimental axes. Please note that no changes should be made directly to this repository; instead, contribute to the upstream repository at [github.com/proxfonts/axisregistry](https://github.com/proxfonts/axisregistry).
 
-The `/lang` subtree contains language support data, and should also not be changed here but instead upstream.
-[github.com/googlefonts/lang](https://github.com/googlefonts/lang)
+The `/lang` subtree includes language support data. Please contribute any modifications upstream at [github.com/proxfonts/lang](https://github.com/proxfonts/lang).
 
 ## Bug Reports and Improvement Requests
 
-If you find a problem with a font file or have a request for the future development of a font project, please [create a new issue in this project's issue tracker](https://github.com/google/fonts/issues).
+If you find a problem with a font file or have a suggestion for future development, please [create a new issue in the project's issue tracker](https://github.com/proxfonts/issues).
 
 ## Contribute Fonts
 
-If you need more context on how to create issues in a GitHub issue tracker, or if you want to contribute a font directly, see [CONTRIBUTING](https://github.com/google/fonts/blob/main/CONTRIBUTING.md)
+For more information on contributing a font, or for instructions on creating issues in this repository, please refer to [CONTRIBUTING](https://github.com/proxfonts/contributing.md).
 
 ## Contributor Code of Conduct
 
-However you choose to contribute, please abide by our [code of conduct](CODE_OF_CONDUCT.md) to keep our community a healthy and welcoming place.
+Please follow our [code of conduct](https://github.com/proxfonts/CODE_OF_CONDUCT.md) to help maintain a welcoming and healthy community environment.
 
-## Self Host Fonts Available From Google Fonts
+## Self Host Fonts Available from ProXFont
 
-Since all the fonts available here are licensed with permission to redistribute, subject to the license terms, you can self-host using a variety of third-party projects.
+All fonts in this repository are licensed with permission to redistribute under the terms of the license. You can self-host using a variety of third-party projects.
 
 One popular service is [Fontsource](https://github.com/fontsource/fontsource), which offers bundled NPM packages.
 
-## Local installation package managers
+## Local Installation Package Managers
 
-For Linux, macOS, FreeBSD, or HaikuOS you can also use [fnt](https://github.com/alexmyczko/fnt), to install single fonts. For [RPM](http://bootes.ethz.ch/fonts/rpm/), [DEB](http://bootes.ethz.ch/fonts/deb/) based systems, feel free to try the linked URLs for individual fonts. Others can also use the [webservice](http://bootes.ethz.ch/fonts/).
+For Linux, macOS, FreeBSD, or HaikuOS, you can use [fnt](https://github.com/alexmyczko/fnt) to install single fonts. For [RPM](http://bootes.ethz.ch/fonts/rpm/), [DEB](http://bootes.ethz.ch/fonts/deb/) based systems, you can try the linked URLs for individual fonts. Others can also use the [webservice](http://bootes.ethz.ch/fonts/).
 
-## Download All Google Fonts
+## Download All ProXFonts
 
-You can download all Google Fonts in a simple ZIP snapshot (over 1GB) from <https://github.com/google/fonts/archive/main.zip>
+You can download all ProXFonts in a ZIP snapshot (over 1GB) from <https://github.com/proxfonts/archive/main.zip>.
 
-#### Sync With Git
+#### Sync with Git
 
-You can also sync the collection with git so that you can update by only fetching what has changed. To learn how to use git, GitHub provides [illustrated guides](https://guides.github.com), a [youtube channel](https://www.youtube.com/user/GitHubGuides), and an [interactive learning site](https://skills.github.com/).
-Free, open-source git applications are available for [Windows](https://git-scm.com/download/gui/windows) and [Mac OS X](https://git-scm.com/download/gui/mac).
+You can sync the collection with Git to only fetch what has changed. To learn how to use Git, GitHub provides [illustrated guides](https://guides.github.com), a [YouTube channel](https://www.youtube.com/user/GitHubGuides), and an [interactive learning site](https://skills.github.com/).
+
+Free, open-source Git applications are available for [Windows](https://git-scm.com/download/gui/windows) and [Mac OS X](https://git-scm.com/download/gui/mac).
 
 ## License
 
-It is important to always read the license for every font that you use.
-Each font family directory contains the appropriate license file for the fonts in that directory.
-The fonts files themselves also contain licensing and authorship metadata.
+Each font family directory contains the license file for its respective fonts. Font files themselves also contain licensing and authorship metadata.
 
-Most of the fonts in the collection use the SIL Open Font License, v1.1.
-Some fonts use the Apache 2 license.
-The Ubuntu fonts use the Ubuntu Font License v1.0.
+- **SIL Open Font License, v1.1** is the most common license used in this collection.
+- **Apache 2 license** is used by some fonts.
+- **Ubuntu Font License v1.0** is used by the Ubuntu fonts.
 
-The SIL Open Font License has an option for copyright holders to include a Reserved Font Name requirement, and this option is used with some of the fonts.
-If you modify those fonts, please take care of this important detail.
+If modifying fonts with a Reserved Font Name, ensure you comply with the required details.
 
 ## Source Files
 
-Source files for each family are often available from the designer, or from [github.com/googlefonts](https://github.com/googlefonts)
+Source files for each family are available from the designer or from [github.com/ProgrammerKR/proxfonts](https://github.com/ProgrammerKR/proxfonts).
 
-These fonts are usually the result of collaborative projects, where you are invited to discuss issues with the designers and even contribute to their ongoing development.
+These fonts are often the result of collaborative projects, so feel free to engage with the designers and contribute improvements.
 
-When customizing or remixing fonts, please do contact the designers to understand what they might need in order to include your improvements.
+If you wish to customize or remix fonts, please contact the designers to understand their requirements for including your modifications.
 
 Most of all: Enjoy the fonts!
 
-– The Google Fonts team
+– The ProXFont team
